@@ -1,0 +1,126 @@
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .logo {
+    display: inline-block;
+    font-size: 24px;
+}
+
+header nav {
+    display: inline-block;
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.about {
+    text-align: center;
+}
+
+.about img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.about h2, .skills h2, .projects h2, .resume h2, .contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about p, .skills ul, .projects .project, .resume p, .contact p {
+    font-size: 18px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.skills ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 18px;
+}
+
+.projects .project {
+    margin-bottom: 30px;
+}
+
+.projects .project h3 {
+    font-size: 24px;
+}
+
+.projects .project img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+.resume .btn {
+    background: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.resume .btn:hover {
+    background: #e55342;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
